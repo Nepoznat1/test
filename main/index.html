@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Vape Shop - Najbolji izbor vape uređaja i puffova</title>
+    <meta name="description" content="Premium vape shop sa najboljim izborom vape uređaja i puffova. Kvalitet, ukus i stil u jednom mestu. Minimalno 5 puffova po narudžbini.">
+    <meta name="keywords" content="vape, puff, maskking, vapanda, fizzy nova, vape shop, elektronske cigarete">
+    <link rel="canonical" href="https://yoursite.com/">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "VapeShop",
+        "description": "Premium vape shop sa najboljim izborom vape uređaja i puffova",
+        "url": "https://yoursite.com",
+        "telephone": "+381-xxx-xxx-xxx",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "RS"
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "RSD",
+            "lowPrice": "1200",
+            "highPrice": "4800"
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="min-h-screen bg-background text-foreground relative overflow-hidden">
+        <!-- Floating Puffs Background Animation -->
+        <div id="floating-background" class="fixed inset-0 pointer-events-none z-0 overflow-hidden"></div>
+
+        <!-- Top Notice -->
+        <div class="relative z-10 w-full bg-primary-20 border-b border-primary-30 py-3 px-4">
+            <div class="max-w-6xl mx-auto text-center">
+                <p class="text-primary font-semibold text-sm md:text-base">
+                    🔥 Minimalno 5 puffova po narudžbini • Poručivanje preko Instagram DM-a 🔥
+                </p>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="relative z-10 w-full p-4 md:p-6">
+            <div class="max-w-6xl mx-auto flex justify-between items-center">
+                <div class="hero-title text-2xl md:text-3xl font-bold">
+                    VapeShop
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="scrollToSection('home')" class="nav-button">
+                        Početna
+                    </button>
+                    <button onclick="scrollToSection('products')" class="nav-button">
+                        Proizvodi
+                    </button>
+                    <button onclick="scrollToSection('order')" class="nav-button-primary">
+                        Poručivanje
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="relative z-10 min-h-screen flex items-center justify-center px-4 md:px-6">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="hero-title">
+                    Premium Vape Shop
+                </h1>
+                <p class="hero-subtitle">
+                    Najbolji izbor vape uređaja i puffova. Kvalitet, ukus i stil u jednom mestu.
+                </p>
+                <button onclick="scrollToSection('products')" class="hero-button">
+                    Pogledaj Proizvode
+                </button>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="relative z-10 py-20 px-4 md:px-6">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16 section-fade-in">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-6 bg-gradient-primary">
+                        Naši Proizvodi
+                    </h2>
+                    <p class="text-xl text-muted-foreground">
+                        Premium kvalitet, neverojatnі ukusi
+                    </p>
+                </div>
+
+                <div id="products-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Products will be rendered here by JavaScript -->
+                </div>
+
+                <div class="text-center mt-16">
+                    <div class="bg-card border border-border rounded-2xl p-6 max-w-lg mx-auto">
+                        <p class="text-lg text-muted-foreground mb-2">
+                            💡 <strong>Napomena:</strong>
+                        </p>
+                        <p class="text-foreground">
+                            Za poručivanje/kupovinu puffa, <br />
+                            <strong class="text-primary">minimalno 5 puffova</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Order Section -->
+        <section id="order" class="relative z-10 py-20 px-4 md:px-6 bg-card-30">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl md:text-5xl font-bold mb-8 bg-gradient-primary section-fade-in">
+                    Poručivanje
+                </h2>
+                
+                <div class="bg-card border border-border rounded-3xl p-8 md:p-12 section-fade-in">
+                    <div class="mb-8">
+                        <h3 class="text-2xl font-bold mb-4 text-foreground">
+                            Kako da poručite?
+                        </h3>
+                        <p class="text-muted-foreground text-lg">
+                            Jednostavno nam pošaljite poruku na Instagram!
+                        </p>
+                    </div>
+
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="instagram-cta">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        Poručite preko Instagram DM-a
+                    </a>
+
+                    <div class="mt-8 space-y-4 text-muted-foreground">
+                        <p>📱 Brza komunikacija kroz DM</p>
+                        <p>🚚 Dostava širom Srbije</p>
+                        <p>💳 Plaćanje pouzećem ili uplatom</p>
+                        <p>🔥 Minimalno 5 puffova po narudžbini</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="relative z-10 py-12 px-4 md:px-6 border-t border-border bg-card-20">
+            <div class="max-w-6xl mx-auto text-center">
+                <div class="hero-title text-2xl mb-4">VapeShop</div>
+                <p class="text-muted-foreground mb-6">
+                    Premium vape proizvodi | Najbolji ukusi | Brza dostava
+                </p>
+                <div class="flex justify-center gap-6 text-sm text-muted-foreground">
+                    <span>📧 info@vapeshop.rs</span>
+                    <span>📱 Instagram DM</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
