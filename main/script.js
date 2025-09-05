@@ -5,7 +5,7 @@ const products = [
     {
         id: "maskking-gts",
         name: "Maskking GTS",
-        image: "obr/maskking-gts.png"
+        image: "obr/maskking-gts.png",
         puffs: "2500",
         price: "1.800 RSD",
         flavors: [
@@ -272,4 +272,5 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('✅ VapeShop initialized successfully!');
     console.log(`📦 Loaded ${products.length} products`);
     console.log('🎨 Animations and effects ready');
+
 });
