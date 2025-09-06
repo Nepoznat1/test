@@ -69,8 +69,8 @@ const products = [
     },
     {
         id: "fizzy-nova",
-        name: "FIZZY NOVA PLUS",
-        image: "images/fizzy-nova-plus.png",
+        name: "FIZZY NOVA",
+        image: "obr/fizzy.png",
         puffs: "40000",
         price: "4.800 RSD",
         flavors: [
@@ -304,6 +304,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('🎨 Animations and effects ready');
     console.log('🖼️ All PNG images loaded');
 });
+
 
 
 
