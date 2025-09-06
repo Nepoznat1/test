@@ -38,8 +38,8 @@ const products = [
     {
         id: "vapanda-vapeex",
         name: "Vapanda Vapeex",
-        image: "images/vapanda-vapeex.png",
-        puffs: "15000",
+        image: "obr/vapanda-vapeex.png",
+        puffs: "30000",
         price: "2.800 RSD",
         flavors: [
             "🥝🍈 Kiwi Passion Fruit",
@@ -54,7 +54,7 @@ const products = [
     {
         id: "vapanda-pro",
         name: "Vapanda Pro",
-        image: "images/vapanda-pro-40000.png",
+        image: "obr/vapanda-pro.png",
         puffs: "40000",
         price: "4.500 RSD",
         flavors: [
@@ -304,6 +304,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('🎨 Animations and effects ready');
     console.log('🖼️ All PNG images loaded');
 });
+
 
 
 
