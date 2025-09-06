@@ -26,7 +26,7 @@ const products = [
         name: "Maskking Vimax",
         image: "obr/massking-vimax.png",
         puffs: "20000",
-        price: "3.500 RSD",
+        price: "2.200 RSD",
         flavors: [
             "🍓🥝 Strawberry Kiwi",
             "🍉❄️ Watermelon ice",
@@ -42,7 +42,7 @@ const products = [
         name: "Vapanda Vapeex",
         image: "obr/vapanda-vapeex.png",
         puffs: "30000",
-        price: "2.800 RSD",
+        price: "1.700 RSD",
         flavors: [
             "🥝🍈 Kiwi Passion Fruit",
             "🫐❄️ Blue Razz Ice",
@@ -58,7 +58,7 @@ const products = [
         name: "Vapanda Pro",
         image: "obr/vapanda-pro.png",
         puffs: "40000",
-        price: "4.500 RSD",
+        price: "2.000 RSD",
         flavors: [
             "🫐❄️ Blueberry Ice",
             "🥝🍈🥭 Kiwi Passion Fruit Guava",
@@ -74,7 +74,7 @@ const products = [
         name: "FIZZY NOVA",
         image: "obr/fizzy.png",
         puffs: "40000",
-        price: "4.800 RSD",
+        price: "2.000 RSD",
         flavors: [
             "🍓🧊 Strawberry Ice",
             "🫐🥥 Blueberry Coconut",
@@ -306,6 +306,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('🎨 Animations and effects ready');
     console.log('🖼️ All PNG images loaded');
 });
+
 
 
 
