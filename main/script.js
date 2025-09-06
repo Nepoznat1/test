@@ -21,7 +21,7 @@ const products = [
     },
     {
         id: "maskking-vimax",
-        name: "Maskking Vimax 20000 puffs (5%)",
+        name: "Maskking Vimax",
         image: "images/maskking-vimax-20000.png",
         puffs: "20000",
         price: "3.500 RSD",
@@ -53,7 +53,7 @@ const products = [
     },
     {
         id: "vapanda-pro",
-        name: "Vapanda Pro 40000 puffs",
+        name: "Vapanda Pro",
         image: "images/vapanda-pro-40000.png",
         puffs: "40000",
         price: "4.500 RSD",
@@ -69,7 +69,7 @@ const products = [
     },
     {
         id: "fizzy-nova",
-        name: "FIZZY NOVA PLUS 40000 puffs",
+        name: "FIZZY NOVA PLUS",
         image: "images/fizzy-nova-plus.png",
         puffs: "40000",
         price: "4.800 RSD",
@@ -91,7 +91,7 @@ const products = [
 
 // Puff images (using actual PNG files)
 const puffImages = [
-    "images/puff-floating-1.png",
+    "images/maskking-gts.png",
     "images/puff-floating-2.png",
     "images/puff-floating-3.png"
 ];
@@ -304,5 +304,6 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('🎨 Animations and effects ready');
     console.log('🖼️ All PNG images loaded');
 });
+
 
 
