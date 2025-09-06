@@ -1,13 +1,13 @@
-// VapeShop JavaScript - Complete Standalone Version
+// VapeShop JavaScript - Complete Standalone Version with PNG Images
 
-// Product data with real images converted to placeholder SVGs
+// Product data with actual PNG images
 const products = [
     {
         id: "maskking-gts",
-        name: "Maskking GTS",
-        image: "obr/maskking-gts.png",
+        name: "Maskking GTS 2500 puffs",
+        image: "images/maskking-gts-2500.png",
         puffs: "2500",
-        price: "1.800 RSD",
+        price: "1.200 RSD",
         flavors: [
             "🍑🍇 Peach Grape",
             "🍇🫐 Blackcurrant", 
@@ -22,9 +22,9 @@ const products = [
     {
         id: "maskking-vimax",
         name: "Maskking Vimax 20000 puffs (5%)",
-        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400' viewBox='0 0 300 400'%3E%3Cdefs%3E%3ClinearGradient id='grad2' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23f093fb;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23f5576c;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='300' height='400' fill='url(%23grad2)'/%3E%3Crect x='30' y='40' width='240' height='320' rx='20' fill='%23222' opacity='0.9'/%3E%3Ctext x='150' y='170' font-family='Arial' font-size='14' fill='%23fff' text-anchor='middle' font-weight='bold'%3EMaskking Vimax%3C/text%3E%3Ctext x='150' y='190' font-family='Arial' font-size='12' fill='%23ccc' text-anchor='middle'%3E20000 puffs (5%25)%3C/text%3E%3Crect x='80' y='220' width='140' height='60' rx='10' fill='%23f093fb' opacity='0.7'/%3E%3Ctext x='150' y='255' font-family='Arial' font-size='12' fill='%23fff' text-anchor='middle' font-weight='bold'%3EPREMIUM%3C/text%3E%3C/svg%3E",
+        image: "images/maskking-vimax-20000.png",
         puffs: "20000",
-        price: "2.200 RSD",
+        price: "3.500 RSD",
         flavors: [
             "🍓🥝 Strawberry Kiwi",
             "🍉❄️ Watermelon ice",
@@ -38,7 +38,7 @@ const products = [
     {
         id: "vapanda-vapeex",
         name: "Vapanda Vapeex",
-        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400' viewBox='0 0 300 400'%3E%3Cdefs%3E%3ClinearGradient id='grad3' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%234facfe;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%2300f2fe;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='300' height='400' fill='url(%23grad3)'/%3E%3Crect x='45' y='60' width='210' height='280' rx='25' fill='%23111' opacity='0.8'/%3E%3Ctext x='150' y='180' font-family='Arial' font-size='16' fill='%23fff' text-anchor='middle' font-weight='bold'%3EVapanda%3C/text%3E%3Ctext x='150' y='200' font-family='Arial' font-size='14' fill='%234facfe' text-anchor='middle' font-weight='bold'%3EVapeex%3C/text%3E%3Ctext x='150' y='220' font-family='Arial' font-size='12' fill='%23ccc' text-anchor='middle'%3E15000 puffs%3C/text%3E%3Cpath d='M120 240 Q150 260 180 240 Q150 220 120 240' fill='%234facfe' opacity='0.6'/%3E%3C/svg%3E",
+        image: "images/vapanda-vapeex.png",
         puffs: "15000",
         price: "2.800 RSD",
         flavors: [
@@ -54,7 +54,7 @@ const products = [
     {
         id: "vapanda-pro",
         name: "Vapanda Pro 40000 puffs",
-        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400' viewBox='0 0 300 400'%3E%3Cdefs%3E%3ClinearGradient id='grad4' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23a8edea;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23fed6e3;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='300' height='400' fill='url(%23grad4)'/%3E%3Crect x='35' y='50' width='230' height='300' rx='30' fill='%23000' opacity='0.9'/%3E%3Ctext x='150' y='160' font-family='Arial' font-size='18' fill='%23fff' text-anchor='middle' font-weight='bold'%3EVapanda%3C/text%3E%3Ctext x='150' y='180' font-family='Arial' font-size='16' fill='%23a8edea' text-anchor='middle' font-weight='bold'%3EPRO%3C/text%3E%3Ctext x='150' y='200' font-family='Arial' font-size='12' fill='%23ccc' text-anchor='middle'%3E40000 puffs%3C/text%3E%3Crect x='70' y='220' width='160' height='40' rx='20' fill='%23a8edea' opacity='0.8'/%3E%3Ctext x='150' y='245' font-family='Arial' font-size='14' fill='%23000' text-anchor='middle' font-weight='bold'%3EPREMIUM PRO%3C/text%3E%3C/svg%3E",
+        image: "images/vapanda-pro-40000.png",
         puffs: "40000",
         price: "4.500 RSD",
         flavors: [
@@ -70,7 +70,7 @@ const products = [
     {
         id: "fizzy-nova",
         name: "FIZZY NOVA PLUS 40000 puffs",
-        image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400' viewBox='0 0 300 400'%3E%3Cdefs%3E%3ClinearGradient id='grad5' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23ff9a9e;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23fecfef;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='300' height='400' fill='url(%23grad5)'/%3E%3Crect x='40' y='45' width='220' height='310' rx='35' fill='%231a1a1a' opacity='0.9'/%3E%3Ctext x='150' y='150' font-family='Arial' font-size='20' fill='%23ff9a9e' text-anchor='middle' font-weight='bold'%3EFIZZY%3C/text%3E%3Ctext x='150' y='175' font-family='Arial' font-size='18' fill='%23fff' text-anchor='middle' font-weight='bold'%3ENOVA%3C/text%3E%3Ctext x='150' y='195' font-family='Arial' font-size='16' fill='%23fecfef' text-anchor='middle' font-weight='bold'%3EPLUS%3C/text%3E%3Ctext x='150' y='215' font-family='Arial' font-size='12' fill='%23ccc' text-anchor='middle'%3E40000 puffs%3C/text%3E%3Ccircle cx='120' cy='250' r='15' fill='%23ff9a9e' opacity='0.7'/%3E%3Ccircle cx='150' cy='250' r='15' fill='%23fecfef' opacity='0.7'/%3E%3Ccircle cx='180' cy='250' r='15' fill='%23ff9a9e' opacity='0.7'/%3E%3C/svg%3E",
+        image: "images/fizzy-nova-plus.png",
         puffs: "40000",
         price: "4.800 RSD",
         flavors: [
@@ -89,11 +89,11 @@ const products = [
     }
 ];
 
-// Puff images (using enhanced SVG placeholders)
+// Puff images (using actual PNG files)
 const puffImages = [
-    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cdefs%3E%3CradialGradient id='puff1'%3E%3Cstop offset='0%25' style='stop-color:%23ffffff;stop-opacity:0.9' /%3E%3Cstop offset='100%25' style='stop-color:%23ffffff;stop-opacity:0.3' /%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='40' cy='40' r='30' fill='url(%23puff1)'/%3E%3C/svg%3E",
-    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cdefs%3E%3CradialGradient id='puff2'%3E%3Cstop offset='0%25' style='stop-color:%23f0f0f0;stop-opacity:0.8' /%3E%3Cstop offset='100%25' style='stop-color:%23f0f0f0;stop-opacity:0.2' /%3E%3C/radialGradient%3E%3C/defs%3E%3Cellipse cx='40' cy='40' rx='35' ry='25' fill='url(%23puff2)'/%3E%3C/svg%3E",
-    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cdefs%3E%3CradialGradient id='puff3'%3E%3Cstop offset='0%25' style='stop-color:%23e0e0e0;stop-opacity:0.9' /%3E%3Cstop offset='100%25' style='stop-color:%23e0e0e0;stop-opacity:0.4' /%3E%3C/radialGradient%3E%3C/defs%3E%3Ccircle cx='40' cy='40' r='25' fill='url(%23puff3)'/%3E%3C/svg%3E"
+    "images/puff-floating-1.png",
+    "images/puff-floating-2.png",
+    "images/puff-floating-3.png"
 ];
 
 // State management
@@ -107,9 +107,35 @@ function scrollToSection(sectionId) {
     }
 }
 
-function toggleFlavors(productId) {
-    openFlavors = openFlavors === productId ? null : productId;
-    renderProducts();
+function toggleFlavors(productId, event) {
+    // Prevent any default behavior that might cause page refresh
+    if (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+    
+    // Toggle state
+    const wasOpen = openFlavors === productId;
+    openFlavors = wasOpen ? null : productId;
+    
+    // Find the specific product card and update only that one
+    const productCard = document.querySelector(`[data-product-id="${productId}"]`);
+    if (productCard) {
+        const flavorList = productCard.querySelector('.flavor-list');
+        const button = productCard.querySelector('.flavor-btn');
+        
+        if (wasOpen) {
+            // Closing
+            productCard.classList.remove('active');
+            flavorList.classList.remove('open');
+            button.textContent = 'Prikaži Ukuse';
+        } else {
+            // Opening
+            productCard.classList.add('active');
+            flavorList.classList.add('open');
+            button.textContent = 'Sakrij Ukuse';
+        }
+    }
 }
 
 // Create floating puff element
@@ -165,11 +191,12 @@ function renderProducts() {
     products.forEach(product => {
         const productCard = document.createElement('div');
         productCard.className = `product-card section-fade-in ${openFlavors === product.id ? 'active' : ''}`;
+        productCard.setAttribute('data-product-id', product.id);
         
         productCard.innerHTML = `
             <div class="product-card-content">
                 <div class="product-image">
-                    <img src="${product.image}" alt="${product.name}">
+                    <img src="${product.image}" alt="${product.name}" loading="lazy">
                 </div>
                 
                 <h3 class="text-xl font-bold mb-2 text-foreground">
@@ -185,7 +212,7 @@ function renderProducts() {
                     </span>
                 </div>
 
-                <button onclick="toggleFlavors('${product.id}')" class="flavor-btn">
+                <button onclick="toggleFlavors('${product.id}', event)" class="flavor-btn">
                     ${openFlavors === product.id ? 'Sakrij Ukuse' : 'Prikaži Ukuse'}
                 </button>
 
@@ -244,6 +271,19 @@ function initScrollEffects() {
     });
 }
 
+// Preload images
+function preloadImages() {
+    const imageUrls = [
+        ...products.map(product => product.image),
+        ...puffImages
+    ];
+    
+    imageUrls.forEach(url => {
+        const img = new Image();
+        img.src = url;
+    });
+}
+
 // Make functions globally accessible
 window.scrollToSection = scrollToSection;
 window.toggleFlavors = toggleFlavors;
@@ -257,20 +297,10 @@ document.addEventListener('DOMContentLoaded', function() {
     renderProducts();
     initAnimations();
     initScrollEffects();
-    
-    // Add performance optimizations
-    if ('requestIdleCallback' in window) {
-        requestIdleCallback(() => {
-            // Preload images
-            products.forEach(product => {
-                const img = new Image();
-                img.src = product.image;
-            });
-        });
-    }
+    preloadImages();
     
     console.log('✅ VapeShop initialized successfully!');
     console.log(`📦 Loaded ${products.length} products`);
     console.log('🎨 Animations and effects ready');
-
+    console.log('🖼️ All PNG images loaded');
 });
