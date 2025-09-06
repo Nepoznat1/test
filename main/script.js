@@ -4,13 +4,13 @@
 const products = [
     {
         id: "maskking-gts",
-        name: "Maskking GTS 2500 puffs",
-        image: "images/maskking-gts-2500.png",
+        name: "Maskking GTS",
+        image: "OBR/maskking-gts.png",
         puffs: "2500",
-        price: "1.200 RSD",
+        price: "1.800 RSD",
         flavors: [
             "🍑🍇 Peach Grape",
-            "🍇🫐 Blackcurrant", 
+            "🍇 Blackcurrant", 
             "🥭🍍 Mango Pineapple",
             "🍍🍊 Pineapple Grapefruit",
             "🍈🥥 Melon Coconut",
@@ -304,3 +304,4 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('🎨 Animations and effects ready');
     console.log('🖼️ All PNG images loaded');
 });
+
