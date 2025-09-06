@@ -5,7 +5,7 @@ const products = [
     {
         id: "maskking-gts",
         name: "Maskking GTS",
-        image: "OBR/maskking-gts.png",
+        image: "obr/maskking-gts.png",
         puffs: "2500",
         price: "1.800 RSD",
         flavors: [
@@ -304,4 +304,5 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('🎨 Animations and effects ready');
     console.log('🖼️ All PNG images loaded');
 });
+
 
