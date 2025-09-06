@@ -22,7 +22,7 @@ const products = [
     {
         id: "maskking-vimax",
         name: "Maskking Vimax",
-        image: "images/maskking-vimax-20000.png",
+        image: "obr/massking-vimax.png",
         puffs: "20000",
         price: "3.500 RSD",
         flavors: [
@@ -304,6 +304,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('🎨 Animations and effects ready');
     console.log('🖼️ All PNG images loaded');
 });
+
 
 
 
