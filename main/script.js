@@ -92,8 +92,8 @@ const products = [
 // Puff images (using actual PNG files)
 const puffImages = [
     "obr/maskking-gts.png",
-    "images/puff-floating-2.png",
-    "images/puff-floating-3.png"
+    "obr/blue.png",
+    "obr/purple.png"
 ];
 
 // State management
@@ -304,6 +304,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('🎨 Animations and effects ready');
     console.log('🖼️ All PNG images loaded');
 });
+
 
 
 
