@@ -9,15 +9,17 @@ const products = [
         puffs: "2500",
         price: "1.800 RSD",
         flavors: [
-            "🍑🍇 Peach Grape",
-            "🍇 Blackcurrant", 
-            "🥭🍍 Mango Pineapple",
-            "🍍🍊 Pineapple Grapefruit",
-            "🍈🥥 Melon Coconut",
-            "🍏🍈 Apple Cantaloupe",
-            "🍈🍉🍓 Lychee Watermelon Strawberry",
-            "🍒 Fantasy Cherry"
-        ]
+    "🍑🍇 Peach Grape",
+    "🍈🍓🥝 Guava Strawberry Kiwi",   
+    "🍓🥤 Raspberry Cola",           
+    "🍇🍇 Blackcurrant",             
+    "🥭🍍 Mango Pineapple",
+    "🍈🥥 Melon Coconut",
+    "🍏🍈 Apple Cantaloupe",
+    "🍈🍉🍓 Lychee Watermelon Strawberry",
+    "🍒 Fantasy Cherry",
+    "🐂⚡ Energy juice"
+]
     },
     {
         id: "maskking-vimax",
@@ -304,6 +306,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('🎨 Animations and effects ready');
     console.log('🖼️ All PNG images loaded');
 });
+
 
 
 
